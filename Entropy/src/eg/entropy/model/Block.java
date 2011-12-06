@@ -55,8 +55,8 @@ public class Block {
 		direction.y = y;
 		this.size = size;
 		
-		if(this.form == FORM_BLOCK) this.form = 0;
-		else if(this.form == FORM_CIRCLE) this.form = 1;
+		if(form == "FORM_BLOCK") this.form = 0;
+		else if(form == "FORM_CIRCLE") this.form = 1;
 		else this.form = 0;
 	}
 	
